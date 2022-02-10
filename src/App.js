@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "styles/Global.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Blog from "Pages/Blog";
+import Resources from "Pages/Resources";
+import ToolBelt from "Pages/ToolBelt";
+import Projects from "Pages/Projects";
+import TopNav from "Components/TopNav/TopNav";
+import QuoteSection from "Components/QuoteSection/QuoteSection";
+import { QueryClient, QueryClientProvider } from "react-query";
+import InfoSection from "Pages/InfoSection";
+import Footer from "Components/Footer/Footer";
+import CopyRight from "Components/Copyright/CopyRight";
+const queryClient = new QueryClient();
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <TopNav />
+      <QueryClientProvider client={queryClient}>
+        <QuoteSection />
+      </QueryClientProvider>
+      <Routes>
+        <Route path="/" element={<InfoSection />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/toolbelt" element={<ToolBelt />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/resources" element={<Resources />} />
+      </Routes>
+      <Footer />
+      <CopyRight />
+    </Router>
   );
 }
 
