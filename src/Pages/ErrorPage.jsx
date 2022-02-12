@@ -33,7 +33,7 @@ const Page404Button = styled(Button)`
   transition: all ease 0.2s;
   :hover {
     color: ${({ theme }) => theme?.palette?.secondary};
-    border: 1px solid ${({ theme }) => theme?.palette?.accent};
+    border: 2px solid ${({ theme }) => theme?.palette?.accent};
     background-color: ${({ theme }) => theme?.palette?.accent};
   }
 `;
@@ -44,7 +44,7 @@ const Custom404 = () => {
     <Page404Container>
       <Spaceship />
       <Page404Text color="textFocused">page not found</Page404Text>
-      <Page404Button onClick={() => navigate("/")}>Go Home</Page404Button>
+      <Page404Button onClick={() => navigate("/")}>Return 🏠</Page404Button>
     </Page404Container>
   );
 };
