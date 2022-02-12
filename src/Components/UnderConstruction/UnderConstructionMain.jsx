@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { FlexCenter } from "styles/GlobalStyles";
 
-export const Construction_MainContainer = styled(motion.div)`
+export const ConstructionMainContainer = styled(motion.div)`
   position: absolute;
   inset: 0;
   background-color: ${({ theme }) => theme?.palette?.secondary};
@@ -21,7 +21,7 @@ export const Construction_MainContainer = styled(motion.div)`
   }
 `;
 
-export const Construction_MainDP = styled.div`
+export const ConstructionMainDP = styled.div`
   height: 140px;
   width: 140px;
   border: 2px solid #f1fa8c;
@@ -37,11 +37,11 @@ const animation = {
 
 const UnderConstructionMain = () => {
   return (
-    <Construction_MainContainer variants={animation} initial="i" animate="a" exit="i">
-      <Construction_MainDP>
+    <ConstructionMainContainer variants={animation} initial="i" animate="a" exit="i">
+      <ConstructionMainDP>
         <img src="DisplayPics/avatar_thumbs_down.png" alt="under construction" />
-      </Construction_MainDP>
-    </Construction_MainContainer>
+      </ConstructionMainDP>
+    </ConstructionMainContainer>
   );
 };
 

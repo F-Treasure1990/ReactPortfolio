@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Box } from "styles/GlobalStyles";
 
-export const Project_CardContainer = styled(Box)`
+export const ProjectCardContainer = styled(Box)`
   overflow: hidden;
   height: auto;
   cursor: pointer;

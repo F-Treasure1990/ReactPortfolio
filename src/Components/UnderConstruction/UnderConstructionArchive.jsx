@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { FlexCenter } from "styles/GlobalStyles";
 
-export const Construction_ArchiveContainer = styled(motion.div)`
+export const ConstructionArchiveContainer = styled(motion.div)`
   position: absolute;
   inset: 0;
   background-color: ${({ theme }) => theme?.palette?.secondary};
@@ -15,7 +15,7 @@ export const Construction_ArchiveContainer = styled(motion.div)`
   ${FlexCenter}
 `;
 
-export const Construction_ArchiveDP = styled.div`
+export const ConstructionArchiveDP = styled.div`
   height: ${({ size }) => size};
   aspect-ratio: 1/1;
   border: 2px solid #f1fa8c;
@@ -30,11 +30,11 @@ const animation = {
 
 const UnderConstructionArchive = ({ size }) => {
   return (
-    <Construction_ArchiveContainer variants={animation} initial="i" animate="a" exit="i">
-      <Construction_ArchiveDP size={size}>
+    <ConstructionArchiveContainer variants={animation} initial="i" animate="a" exit="i">
+      <ConstructionArchiveDP size={size}>
         <img src="DisplayPics/avatar_thumbs_down.png" alt="under construction" />
-      </Construction_ArchiveDP>
-    </Construction_ArchiveContainer>
+      </ConstructionArchiveDP>
+    </ConstructionArchiveContainer>
   );
 };
 

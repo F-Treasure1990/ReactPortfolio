@@ -1,5 +1,3 @@
-import Toggle from "Components/Toggle/Toggle";
-
 import { SectionDivider, SectionSubTitle, SectionTitle } from "styles/GlobalStyles";
 import { ResourcesContainer } from "Components/ResourcesSection/ResourcesStyles";
 import ResourceOption from "Components/ResourcesSection/Resource_Option/Resource_Option";

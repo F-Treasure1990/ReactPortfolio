@@ -22,7 +22,6 @@ const AvatarImg = () => {
     "pray"
   ];
   let randomDP = Math.floor(Math.random() * DPs.length);
-  console.log(DPs[randomDP]);
 
   return <AvatarImgStyles loading="eager" src={`DisplayPics/avatar_${DPs[randomDP]}.png`} />;
 };

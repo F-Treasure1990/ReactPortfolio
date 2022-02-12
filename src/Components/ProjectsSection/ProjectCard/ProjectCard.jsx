@@ -2,8 +2,8 @@ import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import UnderConstructionMain from "Components/UnderConstruction/UnderConstructionMain";
 
-import Project_Main from "./ProjectCardMain/ProjectMain";
-import { Project_CardContainer } from "./ProjectCardStyles";
+import ProjectMain from "./ProjectCardMain/ProjectMain";
+import { ProjectCardContainer } from "./ProjectCardStyles";
 import ProjectTop from "./ProjectCardTop/ProjectTop";
 
 const ProjectCard = ({ card }) => {
@@ -16,12 +16,12 @@ const ProjectCard = ({ card }) => {
   };
   return (
     <>
-      <Project_CardContainer h="max-content" onClick={underConstruction}>
+      <ProjectCardContainer h="max-content" onClick={underConstruction}>
         <AnimatePresence>{displayConstruction && <UnderConstructionMain />}</AnimatePresence>
 
         <ProjectTop card={card} />
-        <Project_Main card={card} />
-      </Project_CardContainer>
+        <ProjectMain card={card} />
+      </ProjectCardContainer>
     </>
   );
 };
