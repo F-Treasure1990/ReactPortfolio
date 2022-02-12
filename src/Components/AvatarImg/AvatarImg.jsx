@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import styled from "styled-components";
 
 export const AvatarImgStyles = styled(motion.img)`
@@ -22,8 +21,10 @@ const AvatarImg = () => {
     "wink",
     "pray"
   ];
+  let randomDP = Math.floor(Math.random() * DPs.length);
+  console.log(DPs[randomDP]);
 
-  return <AvatarImgStyles loading="eager" src={`/DisplayPics/avatar_smile.png`} />;
+  return <AvatarImgStyles loading="eager" src={`DisplayPics/avatar_${DPs[randomDP]}.png`} />;
 };
 
 export default AvatarImg;

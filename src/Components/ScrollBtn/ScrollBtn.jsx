@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 import styled from "styled-components";
 import ScrollTopBtn from "../../icons/ScrollTopBtn";
 import { FlexCenter } from "../../styles/GlobalStyles";

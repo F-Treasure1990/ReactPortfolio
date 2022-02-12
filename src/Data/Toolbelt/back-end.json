@@ -1,0 +1,46 @@
+{
+  "backendTools": [
+    {
+      "software": "node Js",
+      "confidence": 60,
+      "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser",
+      "url": "https://nodejs.org/en/"
+    },
+    {
+      "software": "prisma",
+      "confidence": 85,
+      "description": " Prisma is an open-source ORM for Node. js and TypeScript. It is used as an alternative to writing plain SQL, or using another database access tool such as SQL query builders",
+      "url": "https://www.prisma.io/"
+    },
+    {
+      "software": "graphQL",
+      "confidence": 75,
+      "description": "GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data",
+      "url": "https://graphql.org/"
+    },
+    {
+      "software": "mongoDB",
+      "confidence": 80,
+      "description": "MongoDB is a source-available cross-platform document-oriented database program.",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "software": "strapi",
+      "confidence": 80,
+      "description": "Strapi is the leading open-source headless CMS. It's 100% javascript, fully customizable and developer-first.",
+      "url": "https://strapi.io/"
+    },
+    {
+      "software": "postgreSQL",
+      "confidence": 70,
+      "description": "free and open-source relational database management system emphasizing extensibility and SQL compliance. Prisma negates the need to use SQL",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "software": "mySQL",
+      "confidence": 75,
+      "description": "MySQL is an open-source relational database management system. Prisma negates the need to use SQL",
+      "url": "https://www.mysql.com/"
+    }
+  ]
+}

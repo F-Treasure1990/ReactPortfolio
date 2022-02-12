@@ -10,7 +10,7 @@ import SocialMediaIcons from "Components/InfoSection/TopSection/SocialMediaIcons
 import Credentials from "Components/InfoSection/MiddleSection/Credentials/Credentials";
 import AboutMe from "Components/InfoSection/BottomSection/AboutMe";
 
-const InfoSection = () => {
+const Homepage = () => {
   return (
     <Container>
       {/* TOP SECTION */}
@@ -33,4 +33,4 @@ const InfoSection = () => {
   );
 };
 
-export default InfoSection;
+export default Homepage;

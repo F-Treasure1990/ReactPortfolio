@@ -42,19 +42,13 @@ export const MessageButton = styled(Button)`
   margin-right: 12px;
   font-size: 14px;
   transition: all 0.5s ease-out;
+  :hover > img {
+    transition: scale 0.3s ease;
+  }
+  :hover > img {
+    scale: 1.1;
+  }
   ${({ theme }) => theme?.mediaQ.customDown(450)} {
     display: none;
   }
-  /* & > .messageText {
-    transition: all 0.5s ease-out;
-    font-weight: 400;
-    ${({ theme }) => theme?.mediaQ.customDown(750)} {
-      margin-right: -94px;
-      padding: 8px;
-    }
-  }
-  & > .icon {
-    min-width: 16px;
-    min-height: 16px;
-  } */
 `;

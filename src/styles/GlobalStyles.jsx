@@ -1,6 +1,4 @@
-import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
-motion:;
 export const HomepageContainer = styled.div`
   display: grid;
   flex-direction: column;
@@ -40,13 +38,14 @@ export const Text = styled.p`
   /* font-size: ${({ theme, font }) => theme?.typography?.[font]?.fontSize ?? "16"}px; */
   /* font-weight: ${({ theme, font }) => theme?.typography?.[font]?.fontWeight ?? "400"}; */
 `;
+
 export const TextPara = styled.p`
   color: ${({ theme, color }) => theme?.palette?.[color] ?? "red"};
   font-size: ${({ theme, font }) => theme?.typography?.[font]?.fontSize ?? "16"}px;
   font-weight: ${({ theme, font }) => theme?.typography?.[font]?.fontWeight ?? "400"};
 `;
 
-export const Section_Title = styled(Text)`
+export const SectionTitle = styled(Text)`
   /* font-size: clamp(1.5rem, 1.29rem + 1.05vw, 1.75rem); */
   font-size: clamp(1.5rem, 1.18rem + 1.58vw, 1.88rem);
   flex-basis: 100%;
@@ -59,7 +58,7 @@ export const Section_Title = styled(Text)`
   }
 `;
 
-export const Archive_Title = styled(Section_Title)`
+export const ArchiveTitle = styled(SectionTitle)`
   transition: all ease 0.3s;
   font-size: 20px;
   text-transform: capitalize;
@@ -67,7 +66,7 @@ export const Archive_Title = styled(Section_Title)`
   text-align: start;
 `;
 
-export const Section_SubTitle = styled(Text)`
+export const SectionSubTitle = styled(Text)`
   transition: all ease 0.3s;
   font-size: clamp(0.88rem, 0.77rem + 0.53vw, 1rem);
   font-weight: 300;
@@ -78,13 +77,13 @@ export const Section_SubTitle = styled(Text)`
   }
 `;
 
-export const Archive_SubTitle = styled(Section_Title)`
+export const ArchiveSubTitle = styled(SectionTitle)`
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 300;
   text-align: start;
 `;
-export const Section_Divider = styled.div`
+export const SectionDivider = styled.div`
   min-height: 1px;
   background-color: ${({ theme }) => theme?.palette?.main};
   flex-basis: 100%;
@@ -98,7 +97,7 @@ export const Section_Divider = styled.div`
     margin-right: 12px;
   }
 `;
-export const Section_SubDivider = styled.div`
+export const SectionSubDivider = styled.div`
   height: 1px;
   background-color: ${({ theme }) => theme?.palette?.main};
   width: 80%;

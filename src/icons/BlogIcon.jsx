@@ -1,17 +1,62 @@
 const BlogIcon = ({ d, c }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={d} height={d} viewBox={`0 0 ${d + 8} ${d + 8}`}>
-      <g id="Group_349" data-name="Group 349" transform="translate(-1306.25 -492.75)">
-        <path id="Path_5" data-name="Path 5" d="M55.35,5.783V1.821A1.321,1.321,0,0,0,54.029.5H40.821A1.321,1.321,0,0,0,39.5,1.821V20.312a1.321,1.321,0,0,0,1.321,1.321h9.258" transform="translate(1268 493.5)" fill="none" stroke={c} strokeMiterlimit="10" strokeWidth="2.5" />
-        <path
-          id="Path_6"
-          data-name="Path 6"
-          d="M47.5,5.821V24.312a1.321,1.321,0,0,0,1.321,1.321H62.029a1.321,1.321,0,0,0,1.321-1.321V10.33a1.32,1.32,0,0,0-.387-.934L58.453,4.887A1.32,1.32,0,0,0,57.52,4.5h-8.7A1.321,1.321,0,0,0,47.5,5.821Z"
-          transform="translate(1270.566 494.783)"
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <g id="Group_850" data-name="Group 850" transform="translate(1252 223)">
+        <g
+          id="Rectangle_760"
+          data-name="Rectangle 760"
+          transform="translate(-1252 -223)"
           fill="none"
           stroke={c}
-          strokeMiterlimit="10"
-          strokeWidth="2.5"
+          stroke-width="1.5"
+        >
+          <rect width="24" height="24" rx="3" stroke="none" />
+          <rect x="1" y="1" width="22" height="22" rx="2" fill="none" />
+        </g>
+        <rect
+          id="Rectangle_761"
+          data-name="Rectangle 761"
+          width="10"
+          height="1.5"
+          rx="0.5"
+          fill={c}
+          transform="translate(-1242 -218)"
+        />
+        <rect
+          id="Rectangle_764"
+          fill={c}
+          data-name="Rectangle 764"
+          width="16"
+          height="1.5"
+          rx="0.5"
+          transform="translate(-1248 -214)"
+        />
+        <rect
+          id="Rectangle_763"
+          fill={c}
+          data-name="Rectangle 763"
+          width="4"
+          height="1.5"
+          rx="0.5"
+          transform="translate(-1248 -218)"
+        />
+        <rect
+          fill={c}
+          id="Rectangle_761-2"
+          data-name="Rectangle 761"
+          width="16"
+          height="1.5"
+          rx="0.5"
+          transform="translate(-1248 -210)"
+        />
+        <rect
+          fill={c}
+          id="Rectangle_761-3"
+          data-name="Rectangle 761"
+          width="16"
+          height="1.5"
+          rx="0.5"
+          transform="translate(-1248 -206)"
         />
       </g>
     </svg>

@@ -1,0 +1,108 @@
+{
+  "cards": [
+    {
+      "title": "build a spotify connected app",
+      "postDate": "8 Aug 21",
+      "professional": "false",
+      "img": "project-1.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "The Most Popular React UI Component Libraries in 2022",
+      "postDate": "8 feb 21",
+      "professional": "true",
+      "img": "project-2.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "A Beginner’s Guide to Creating a Map Using Leaflet.js",
+      "postDate": "8 Aug 21",
+      "professional": "true",
+      "img": "project-3.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "5 Reasons You Should Adopt a Micro Frontend Architecture",
+      "postDate": "8 Aug 21",
+      "professional": "false",
+      "img": "project-4.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "A Beginner’s Guide to Vue Router",
+      "postDate": "12 Jun 21",
+      "professional": "false",
+      "img": "project-5.png",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "How to Build Your Backend with Hasura and PostgreSQL",
+      "postDate": "8 Aug 21",
+      "professional": "true",
+      "img": "project-3.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "build a spotify connected app",
+      "postDate": "8 Aug 21",
+      "professional": "true",
+      "img": "project-2.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    },
+    {
+      "title": "How to Write Shell Scripts in Node with Google’s zx Library",
+      "postDate": "8 Aug 21",
+      "professional": "true",
+      "img": "project-1.webp",
+      "stack": [
+        "react",
+        "express",
+        "spotify Api",
+        "styled components"
+      ],
+      "description": "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. more junk text that no one will read. just need to fill the box"
+    }
+  ]
+}

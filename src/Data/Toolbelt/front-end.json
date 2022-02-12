@@ -1,0 +1,52 @@
+{
+  "frontendTools": [
+    {
+      "software": "javaScript",
+      "confidence": 95,
+      "description": "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+    },
+    {
+      "software": "reactJS",
+      "confidence": 85,
+      "description": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "software": "CSS",
+      "confidence": 90,
+      "description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "software": "sass",
+      "confidence": 90,
+      "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+      "url": "https://sass-lang.com/"
+    },
+    {
+      "software": "typescript",
+      "confidence": 60,
+      "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "software": "framerMotion",
+      "confidence": 80,
+      "description": "A production-ready motion library for React. Utilize the power behind Framer, the best prototyping tool for teams. Proudly open source.",
+      "url": "https://www.framer.com/motion/"
+    },
+    {
+      "software": "material-ui",
+      "confidence": 85,
+      "description": "Robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster.",
+      "url": "https://mui.com/"
+    },
+    {
+      "software": "tailwind CSS",
+      "confidence": 60,
+      "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+      "url": "https://tailwindcss.com/"
+    }
+  ]
+}

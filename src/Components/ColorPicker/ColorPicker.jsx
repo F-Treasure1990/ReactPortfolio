@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
-
 import { useDispatch, useSelector } from "react-redux";
 import styled, { css } from "styled-components";
 import { changeAccentColor } from "Store/ThemeSlice";
 import { FlexCenter } from "styles/GlobalStyles";
 
-export const ColorPicker_Container = styled.div`
+export const ColorPickerContainer = styled.div`
   height: max-content;
-
   display: flex;
   justify-content: space-between;
   width: max-content;
@@ -24,7 +22,7 @@ export const ColorPicker_Container = styled.div`
         order: 3;
         width: 50%;
         flex-basis: max-content;
-        margin-top: 48px;
+        margin-top: 40px;
       }
       ${({ theme }) => theme?.mediaQ.customDown(450)} {
         order: 3;
@@ -53,7 +51,7 @@ export const ColorPickerColor = styled.div`
         `}
 `;
 
-export const ColorPickerColor_Center = styled(motion.div)`
+export const ColorPickerColorCenter = styled(motion.div)`
   height: ${({ theme, infosec }) => (infosec ? "16px" : "14px")};
   aspect-ratio: 1/1;
   border-radius: 100%;
@@ -68,7 +66,7 @@ export const ColorPicker = ({ infosec }) => {
   // console.log(accentColor);
 
   return (
-    <ColorPicker_Container infosec={infosec}>
+    <ColorPickerContainer infosec={infosec}>
       {colors.map((color, i) => (
         <ColorPickerColor
           infosec={infosec}
@@ -78,13 +76,13 @@ export const ColorPicker = ({ infosec }) => {
             dispatch(changeAccentColor(color));
           }}
         >
-          <ColorPickerColor_Center
+          <ColorPickerColorCenter
             infosec={infosec}
             initial={color === accentColor ? { scale: 0 } : { scale: 1 }}
             animate={color === accentColor ? { scale: 0 } : { scale: 1 }}
           />
         </ColorPickerColor>
       ))}
-    </ColorPicker_Container>
+    </ColorPickerContainer>
   );
 };

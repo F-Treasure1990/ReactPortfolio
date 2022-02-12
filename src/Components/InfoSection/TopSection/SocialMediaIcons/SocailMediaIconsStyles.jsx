@@ -17,8 +17,10 @@ export const Container = styled.section`
 `;
 
 export const MediaOption = styled.div`
-  min-width: clamp(3.38rem, 0.75rem + 6vw, 3.75rem);
-  height: clamp(2.88rem, 0.25rem + 6vw, 3.25rem);
+  min-width: 60px;
+  height: 52px;
+  /* min-width: clamp(3.38rem, 0.75rem + 6vw, 3.75rem);
+  height: clamp(2.88rem, 0.25rem + 6vw, 3.25rem); */
   border: 2px solid ${({ theme }) => theme?.palette?.accent};
   border-radius: 8px;
   margin: 0 3%;
@@ -35,5 +37,7 @@ export const MediaOption = styled.div`
   }
   ${({ theme }) => theme?.mediaQ.customDown(700)} {
     margin: 0 clamp(0.38rem, 0.23rem + 0.73vw, 0.75rem);
+    height: 48px;
+    width: 54px;
   }
 `;

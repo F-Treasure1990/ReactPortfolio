@@ -1,0 +1,319 @@
+{
+  "categories": [
+    {
+      "title": "learn web development",
+      "resources": [
+        {
+          "title": "freeCodeCamp",
+          "description": "A nonprofit community that helps you learn to code by building projects.",
+          "url": "https://www.freecodecamp.org/"
+        },
+        {
+          "title": "Udemy",
+          "description": "Popular online learning platform with over 130,000 courses that can help you advance your career",
+          "url": "https://www.udemy.com/"
+        },
+        {
+          "title": "youTube",
+          "description": "Video sharing and social media platform owned by Google",
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "title": "skillShare",
+          "description": "Skillshare is an online learning platform with thousands of creative courses and classes taught by experts to help you learn new skills.",
+          "url": "https://www.skillshare.com/"
+        }
+      ]
+    },
+    {
+      "title": "youtube Channels",
+      "resources": [
+        {
+          "title": "Travis Media",
+          "description": "Hands down the best channel for beginners imo. casual, down to earth teaching style",
+          "url": "https://www.youtube.com/user/TechGuyWeb"
+        },
+        {
+          "title": "The Net Ninja",
+          "description": "Fantastic video series on many different frameworks, languages. extremely beginner friendly",
+          "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+        },
+        {
+          "title": "Laith Harb",
+          "description": "Underrated channel imo, he has tutorials on everything javascript. one of my most visited channels",
+          "url": "https://www.youtube.com/channel/UCyLNhHSiEVkVwPSFKxJAfSA"
+        },
+        {
+          "title": "codevolution",
+          "description": "Always seems to have the right videos at the right time,detailed and well detailed content on Javascript, React ecosystem etc",
+          "url": "https://www.youtube.com/c/Codevolution"
+        },
+        {
+          "title": "Fireship.io",
+          "description": "Very popular channel for code information, covering many languages",
+          "url": "https://www.youtube.com/c/Fireship"
+        },
+        {
+          "title": "Kevin Powell",
+          "description": "The King of everything CSS, any topic regarding CSS / HTMl im sure he will have you covered",
+          "url": "https://www.youtube.com/user/KepowOb"
+        },
+        {
+          "title": "Web Dev Simplified",
+          "description": "Does exactly what his channel is called, makes the web very simple, another beginner friendly channel highly recommend",
+          "url": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw"
+        },
+        {
+          "title": "Jack Herrington",
+          "description": "Extremely in-depth channel, surprises me how easy he makes things seem ",
+          "url": "https://www.youtube.com/user/jherr2006"
+        },
+        {
+          "title": "Colby Fayock",
+          "description": "Great channel for JamStack, NextJS, React content",
+          "url": "https://www.youtube.com/user/colbz"
+        }
+      ]
+    },
+    {
+      "title": "Colors",
+      "resources": [
+        {
+          "title": "coolors",
+          "description": "The super fast color palettes generator, here for inspiration with thousands of color schemes",
+          "url": "https://coolors.co/"
+        },
+        {
+          "title": "hexcolorpedia",
+          "description": "Color Conversion (Hex color to Rgb, Cmy, Cmyk, Hsl, HSB/HSV, XYZ, Yxy Hunter-Lab, and Grayscale). Tints, Tones and Shades,Color Blending",
+          "url": "https://hexcolorpedia.com/"
+        },
+        {
+          "title": "colors Interactor",
+          "description": "A simple way to check the interactions between the colors of your palette. Good for color contract testing",
+          "url": "https://colors.learn.uno/"
+        },
+        {
+          "title": "webgradients",
+          "description": "WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. Easy copy CSS3 crossbrowser code and use it in a moment!",
+          "url": "https://webgradients.com/"
+        },
+        {
+          "title": "color Hunt",
+          "description": "Color Hunt is an open collection of color palettes, used to find color inspirations and find the perfect palette for your projects",
+          "url": "https://colorhunt.co/"
+        }
+      ]
+    },
+    {
+      "title": "CSS Animations",
+      "resources": [
+        {
+          "title": "animistra",
+          "description": "A tool to build custom CSS animations, with generated CSS code",
+          "url": "https://animista.net/"
+        },
+        {
+          "title": "minimamente",
+          "description": "Small library of CSS3 Animations with special effects",
+          "url": "https://www.minimamente.com/project/magic/"
+        },
+        {
+          "title": "Animatopy",
+          "description": "Libary of CSS animation snippets",
+          "url": "https://sarthology.github.io/Animatopy/"
+        },
+        {
+          "title": "tobiasahlin",
+          "description": "Custom Loading spinners with source code for FREE",
+          "url": "https://tobiasahlin.com/spinkit/"
+        }
+      ]
+    },
+    {
+      "title": "vectors",
+      "resources": [
+        {
+          "title": "Freepiks",
+          "description": "#1 resources site for vector graphics for graphic designers. helps you to find free vector art, illustrations, icons, PSD and photos.",
+          "url": "https://www.freepik.com/"
+        },
+        {
+          "title": "vecteezy",
+          "description": "leading global provider of digital imagery, such as Vector, Illustrations, Icons, PSD etc",
+          "url": "https://www.vecteezy.com/"
+        },
+        {
+          "title": "vectorLogos",
+          "description": "A large library of vector logos from around the world FREE",
+          "url": "https://worldvectorlogo.com/"
+        },
+        {
+          "title": "pixeltrue",
+          "description": "Getting amazing designs doesn't have to cost thousands of dollars, 500+ free premium illustrations ",
+          "url": "https://www.pixeltrue.com/free-illustrations"
+        },
+        {
+          "title": "shape divider",
+          "description": "We created this free tool to make it easier for designers and developers to export a beautiful SVG shape divider",
+          "url": "https://www.shapedivider.app/"
+        },
+        {
+          "title": "drawKit",
+          "description": "Handmade, high-quality illustration kits.",
+          "url": "https://drawkit.com/"
+        },
+        {
+          "title": "unDraw",
+          "description": "Open-source illustrations for any idea you can imagine and create, paired with continuous updates ",
+          "url": "https://undraw.co/illustrations"
+        }
+      ]
+    },
+    {
+      "title": "assets",
+      "resources": [
+        {
+          "title": "pixabay",
+          "description": "Over 2.5 million+ high quality stock images, videos and music shared by our talented community.",
+          "url": "https://pixabay.com/"
+        },
+        {
+          "title": "unsplash",
+          "description": "the internets source of free usable images,under the Unsplash license.",
+          "url": "https://unsplash.com/"
+        },
+        {
+          "title": "coverr",
+          "description": "catalog of thousands of free, high-quality videos that have been downloaded more than 5 million times and are viewed 1.1 million times each month",
+          "url": "https://coverr.co/"
+        },
+        {
+          "title": "mixKit",
+          "description": "Awesome Stock Video Clips, Stock Music, Sound Effects & Video Templates. All available for free!",
+          "url": "https://mixkit.co/"
+        }
+      ]
+    },
+    {
+      "title": "react Resources",
+      "resources": [
+        {
+          "title": "awesome react",
+          "description": "A collection of awesome things regarding the React ecosystem.",
+          "url": "https://github.com/enaqx/awesome-react#readme"
+        },
+        {
+          "title": "interview Questions",
+          "description": "A collection off react interview questions with code answers",
+          "url": "https://unsplash.com/"
+        },
+        {
+          "title": "awesome Components",
+          "description": "Amazing collection of custom react components for all needs ",
+          "url": "https://github.com/brillout/awesome-react-components"
+        }
+      ]
+    },
+    {
+      "title": "icons",
+      "resources": [
+        {
+          "title": "flatIcon",
+          "description": "Download free icons and stickers for your projects. Resources made by and for designers. PNG, SVG, EPS, PSD and BASE 64 formats.",
+          "url": "https://www.flaticon.com/"
+        },
+        {
+          "title": "HeroIcons",
+          "description": "A set of 450+ free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+          "url": "https://heroicons.dev/"
+        },
+        {
+          "title": "Feather Icons",
+          "description": "A collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.",
+          "url": "https://feathericons.com/"
+        },
+        {
+          "title": "Lineicons",
+          "description": "A collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.",
+          "url": "https://lineicons.com/"
+        },
+        {
+          "title": "3D Icon",
+          "description": "5000 Handcrafted Free Line Icons for Modern User Interfaces of Web, Mobile, and Desktop App Design & Development Projects",
+          "url": "https://free3dicon.com/"
+        }
+      ]
+    },
+    {
+      "title": "Inspiration",
+      "resources": [
+        {
+          "title": "behance",
+          "description": "Behance is a social media platform owned by Adobe - to showcase and discover creative work",
+          "url": "https://www.behance.net/"
+        },
+        {
+          "title": "dribble",
+          "description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives..",
+          "url": "https://dribbble.com/"
+        },
+        {
+          "title": "figma Community",
+          "description": "A public space where you can now publish live design files that anyone in the world can inspect, remix, and learn from",
+          "url": "https://www.figma.com/community"
+        },
+        {
+          "title": "pinterest",
+          "description": " image sharing and social media service designed to enable saving and discovery of information. Amazing source of reference",
+          "url": "https://www.pinterest.co.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Fonts",
+      "resources": [
+        {
+          "title": "fontpark",
+          "description": "Font pairing in design, font pairing with machine learning",
+          "url": "https://fontpark.com/"
+        },
+        {
+          "title": "fontJoy",
+          "description": "A public space where you can now publish live design files that anyone in the world can inspect, remix, and learn from",
+          "url": "https://fontjoy.com/"
+        },
+        {
+          "title": "dafont",
+          "description": "large library of FREE fonts",
+          "url": "https://www.dafont.com/"
+        },
+        {
+          "title": "typeScale",
+          "description": " A Visual Calculator Preview and choose the right type scale for your project. Experiment with font size, scale and different web-fonts.",
+          "url": "https://type-scale.com/"
+        }
+      ]
+    },
+    {
+      "title": "Utilities",
+      "resources": [
+        {
+          "title": "CSS clip-path",
+          "description": "Css Clip-path maker, with source code",
+          "url": "https://www.flaticon.com/"
+        },
+        {
+          "title": "shadows",
+          "description": "A box-shadow generator with source code",
+          "url": "https://shadows.brumm.af"
+        },
+        {
+          "title": "neumorphism",
+          "description": "A neumorphism generator with source code ",
+          "url": "https://neumorphism.io/#e0e0e0"
+        }
+      ]
+    }
+  ]
+}

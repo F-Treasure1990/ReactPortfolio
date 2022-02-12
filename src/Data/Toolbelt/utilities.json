@@ -1,0 +1,40 @@
+{
+  "designTools": [
+    {
+      "software": "notion",
+      "confidence": 90,
+      "description": "Notion is a note taking software and project management software that is used for note-taking, task management, project management, knowledge management, and personal knowledge management. ",
+      "url": "https://www.notion.so/product"
+    },
+    {
+      "software": "adobeXD",
+      "confidence": 75,
+      "description": "Adobe XD is a vector-based user experience design tool for web apps and mobile apps, developed and published by Adobe Inc.",
+      "url": "https://www.adobe.com/uk/products/xd.html"
+    },
+    {
+      "software": "photoshop",
+      "confidence": 60,
+      "description": "Adobe Photoshop is the leading raster graphics editor, it has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
+      "url": "https://www.adobe.com/uk/products/photoshop.html"
+    },
+    {
+      "software": "figma",
+      "confidence": 70,
+      "description": "Figma is a vector graphics editor and prototyping tool which is primarily web-based.",
+      "url": "https://www.figma.com/"
+    },
+    {
+      "software": "illustrator",
+      "confidence": 85,
+      "description": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc.",
+      "url": "https://www.adobe.com/uk/products/illustrator.html"
+    },
+    {
+      "software": "VSCode",
+      "confidence": 95,
+      "description": "Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS",
+      "url": "https://code.visualstudio.com/"
+    }
+  ]
+}

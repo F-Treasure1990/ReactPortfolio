@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-2.068" y1="3.901" x2="-2.068" y2="2.904" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#251200"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="adobe-illustrator-cs6" transform="translate(-17.409 -8.256)">
+    <path id="Path_676" data-name="Path 676" d="M17.409,8.256h22v22h-22Z" transform="translate(0 0)" fill="#ffb86c"/>
+    <path id="Path_677" data-name="Path 677" d="M59.943,54.386h1.924l-.962-3.825ZM53.666,45V63.387H72.119V45Zm9.258,13.579-.7-2.486H59.615l-.7,2.486H57.127l2.511-8.788v-.962h2.394l2.863,9.75Zm4.741,0H65.74V51.163h1.924Zm-.951-8.307a1.01,1.01,0,1,1,1-1.01A1,1,0,0,1,66.714,50.273Z" transform="translate(-34.469 -34.932)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
