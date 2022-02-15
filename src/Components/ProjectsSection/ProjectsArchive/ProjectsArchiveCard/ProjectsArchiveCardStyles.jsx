@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Box, FlexCenter, Text } from "styles/GlobalStyles";
+import { Box, Text } from "styles/GlobalStyles";
 
 export const ProjectsArchiveCardContainer = styled(Box)`
   padding: 16px;
