@@ -6,9 +6,18 @@ import {
   ProjectsCardsContainer,
   ProjectsContainer
 } from "Components/ProjectsSection/ProjectsStyles";
-import { SectionDivider, SectionSubTitle, SectionTitle } from "styles/GlobalStyles";
+import {
+  SectionDivider,
+  SectionSubTitle,
+  SectionTitle,
+  ArchiveSubTitle,
+  ArchiveTitle,
+  SectionSubDivider
+} from "styles/GlobalStyles";
 import ProjectCard from "Components/ProjectsSection/ProjectCard/ProjectCard";
 import ProjectNav from "Components/ProjectsSection/ProjectNav/ProjectNav";
+import ProjectsArchiveCard from "Components/ProjectsSection/ProjectsArchive/ProjectsArchiveCard/ProjectsArchiveCard";
+import { ArchiveProjectsContainer } from "Components/ProjectsSection/ProjectsArchive/ProjectsArchiveStyles";
 
 const Projects = () => {
   const { cards } = projectsData;
@@ -31,6 +40,14 @@ const Projects = () => {
           <ProjectNav filteredArray={filteredArray} />
         </ProjectsCardsContainer>
       </ProjectsContainer>
+      <SectionSubDivider />
+      <ArchiveTitle color="textFocused">archive</ArchiveTitle>
+      <ArchiveSubTitle color="accent">A Collection of noteworthy projects</ArchiveSubTitle>
+      <ArchiveProjectsContainer>
+        {cards.map((c, i) => (
+          <ProjectsArchiveCard card={c} key={`${i}-card`} />
+        ))}
+      </ArchiveProjectsContainer>
     </>
   );
 };
