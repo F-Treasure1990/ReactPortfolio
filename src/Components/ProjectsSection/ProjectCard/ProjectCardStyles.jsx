@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Box } from "styles/GlobalStyles";
+import styled from 'styled-components'
+import { Box } from 'styles/GlobalStyles'
 
 export const ProjectCardContainer = styled(Box)`
   overflow: hidden;
@@ -18,4 +18,4 @@ export const ProjectCardContainer = styled(Box)`
   ${({ theme }) => theme?.mediaQ.customDown(450)} {
     min-height: 299px;
   }
-`;
+`

@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import { FlexCenter } from "styles/GlobalStyles";
+import styled from 'styled-components'
+import { FlexCenter } from 'styles/GlobalStyles'
 
 export const QuoteContainer = styled.section`
   border-radius: 12px;
   margin: 40px 0;
   user-select: none;
-  background-image: url("landingBackground.svg");
+  background-image: url('/landingBackground.svg');
   cursor: pointer;
   ${FlexCenter}
   flex-direction: column;
@@ -15,7 +15,7 @@ export const QuoteContainer = styled.section`
   ${({ theme }) => theme?.mediaQ.customDown(600)} {
     margin: 12px 0;
   }
-`;
+`
 
 export const Quote = styled.div`
   display: block;
@@ -37,4 +37,4 @@ export const Quote = styled.div`
     line-height: 30px;
     min-height: 60px;
   }
-`;
+`

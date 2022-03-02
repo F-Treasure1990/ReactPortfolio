@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Text } from "styles/GlobalStyles";
+import React from 'react'
+import styled from 'styled-components'
+import { Text } from 'styles/GlobalStyles'
 
 const CopyrightStyles = styled.div`
   font-size: clamp(0.63rem, 0.52rem + 0.53vw, 0.75rem);
@@ -36,18 +36,20 @@ const CopyrightStyles = styled.div`
       }
     }
   }
-`;
+`
 const CopyRight = () => {
   return (
     <CopyrightStyles>
-      <Text color="text">© 2020-present Fenton Treasure. All Rights Reserved.</Text>
+      <Text color='text'>
+        © 2020-present Fenton Treasure. All Rights Reserved.
+      </Text>
       <div>
-        <img src="SocialMedia/instagram.svg" alt="instagram" />
-        <img src="SocialMedia/linkedin.svg" alt="linkedin" />
-        <img src="socialMedia/github.svg" alt="github" />
+        <img src='/SocialMedia/instagram.svg' alt='instagram' />
+        <img src='/SocialMedia/linkedin.svg' alt='linkedin' />
+        <img src='/SocialMedia/github.svg' alt='github' />
       </div>
     </CopyrightStyles>
-  );
-};
+  )
+}
 
-export default CopyRight;
+export default CopyRight

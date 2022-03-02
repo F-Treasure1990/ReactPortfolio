@@ -1,16 +1,16 @@
-import styled from "styled-components";
-import { Text, Button } from "styles/GlobalStyles";
+import styled from 'styled-components'
+import { Text, Button } from 'styles/GlobalStyles'
 
 export const Footercontainer = styled.section`
   margin-bottom: 50px;
   display: flex;
   padding: 12px 0 24px 0;
-  background-image: url("landingBackground.svg");
+  background-image: url('/landingBackground.svg');
   flex-direction: column;
   align-items: center;
   position: relative;
   min-height: 302.4px;
-`;
+`
 
 export const FooterLogoDividerContainer = styled.div`
   height: min-content;
@@ -32,12 +32,12 @@ export const FooterLogoDividerContainer = styled.div`
   & > :not(:nth-child(2)) {
     margin: 0;
   }
-`;
+`
 
 export const FooterTextContainer = styled.div`
   width: clamp(20rem, 11.58rem + 42.11vw, 30rem);
   text-align: center;
-`;
+`
 
 export const FooterTitle = styled(Text)`
   text-transform: capitalize;
@@ -45,7 +45,7 @@ export const FooterTitle = styled(Text)`
   margin-top: 16px;
   color: ${({ theme }) => theme?.palette?.accent};
   transition: all ease 0.3s;
-`;
+`
 
 export const FooterDescription = styled(Text)`
   font-weight: 300;
@@ -54,7 +54,7 @@ export const FooterDescription = styled(Text)`
   ${({ theme }) => theme?.mediaQ.customDown(450)} {
     padding: 0 12px;
   }
-`;
+`
 
 export const FooterButton = styled(Button)`
   width: 60%;
@@ -73,4 +73,4 @@ export const FooterButton = styled(Button)`
     color: ${({ theme }) => theme?.palette?.secondary};
     background-color: ${({ theme }) => theme?.palette?.accent};
   }
-`;
+`
